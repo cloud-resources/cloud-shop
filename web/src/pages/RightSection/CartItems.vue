@@ -23,8 +23,13 @@ const decrementQuantity = (index: number): void => {
 const incrementQuantity = (index: number): void => {
   const item = shopStore.cart[index]
   if (!item || item.quantity >= 999) return
-
+  if (item.category === 'weapons') {
+        // Prevent incrementing quantity for items in the "weapons" category
+        return;
+      }
+      
   item.quantity++
+  
 }
 
 // Validate Inputs
