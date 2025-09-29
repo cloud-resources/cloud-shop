@@ -171,5 +171,5 @@ lib.callback.register("cloud-shop:getJobData", function(source)
 	if not xPlayer then return nil end
 
 	local job = xPlayer.getJob()
-	return job.itemName, job.grade
+	return job.name, job.grade
 end)
