@@ -100,7 +100,7 @@ watch(totalPrice, newPrice => animatePrice(newPrice))
 
 .payment-title {
   font-family: "PFDinDisplayPro Medium", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.6vh;
   letter-spacing: 0.05em;
   color: rgb(255, 255, 255);
 }
@@ -110,7 +110,7 @@ watch(totalPrice, newPrice => animatePrice(newPrice))
   width: 100%;
   height: fit-content;
   font-family: "PFDinDisplayPro Bold", sans-serif;
-  font-size: 3rem;
+  font-size: 4.3vh;
   color: rgb(102, 249, 111);
   text-shadow: 0 0 1.19vh rgba(102, 249, 111, 0.4);
 }
@@ -133,7 +133,7 @@ watch(totalPrice, newPrice => animatePrice(newPrice))
     height: 5.5vh;
     gap: 0.5vh;
     font-family: "PFDinDisplayPro Bold", sans-serif;
-    font-size: 1rem;
+    font-size: 1.5vh;
     color: rgb(255, 255, 255);
     border-radius: 0.5vh;
     background-color: rgb(47, 48, 48);
