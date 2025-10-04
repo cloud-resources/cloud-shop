@@ -69,7 +69,7 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
 </script>
 
 <template>
-  <div v-if="shopStore.cart.length === 0" class="no-items">
+  <div v-if="!shopStore.cart.length" class="no-items">
     <Icon icon="mdi:shopping-basket-off" />
   </div>
 
