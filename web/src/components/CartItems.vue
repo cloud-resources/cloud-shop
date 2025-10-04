@@ -261,8 +261,9 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
+  width: calc(100% + 2.2vh);
+  height: calc((7 * 6.5vh) + (6 * 1vh));
+  padding-right: 1.5vh;
   font-size: 10vh;
   color: rgba(255, 255, 255, 0.15);
 }
