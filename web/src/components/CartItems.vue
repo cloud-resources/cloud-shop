@@ -184,12 +184,12 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
 
       .item-label {
         text-align: left;
-        font-size: 1.3vh;
+        font-size: 1.25vh;
         color: rgba(255, 255, 255, 0.8);
       }
 
       .item-price {
-        font-size: 1.3vh;
+        font-size: 1.25vh;
         color: rgb(102, 249, 111);
         text-shadow: 0 0 1.19vh rgba(102, 249, 111, 0.5);
       }

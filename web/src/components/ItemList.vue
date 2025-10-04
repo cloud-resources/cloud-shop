@@ -143,7 +143,7 @@ const addToCart = (name: string): void => {
 
     .item-label {
       width: 65%;
-      font-size: 1.375vh;
+      font-size: 1.3vh;
       color: rgba(255, 255, 255, 0.8);
       margin: 0;
     }
@@ -164,7 +164,7 @@ const addToCart = (name: string): void => {
     width: 100%;
     height: 3.5vh;
     border-radius: 0.5vh;
-    font-size: 1.3vh;
+    font-size: 1.25vh;
     font-family: "PFDinDisplayPro Medium", sans-serif;
     color: rgb(255, 255, 255);
     background-color: rgb(47, 48, 48);

@@ -139,6 +139,7 @@ const scrollIntoView = (): void => {
 
     .category-name {
       font-family: "PFDinDisplayPro Bold", sans-serif;
+      font-size: 1.3vh;
     }
   }
 
