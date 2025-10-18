@@ -5,7 +5,7 @@ use_experimental_fxv2_oal "yes"
 
 author "yiruzu"
 description "Cloud Resources - Shop"
-version "3.0.0"
+version "3.0.1"
 
 support "https://discord.gg/jAnEnyGBef"
 documentation "https://docs.cloud-resources.eu/"
