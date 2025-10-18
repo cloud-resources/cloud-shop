@@ -1,7 +1,10 @@
 {
   "recommendations": [
+    "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
     "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "oxc.oxc-vscode",
     "sumneko.lua",
     "johnnymorganz.stylua",
     "communityox.cfxlua-vscode-cox",

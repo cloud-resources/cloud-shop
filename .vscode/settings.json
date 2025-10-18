@@ -1,4 +1,11 @@
 {
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts",
+    "package.json": "bun.lock",
+    ".env": ".env.*, .env.local"
+  },
+
   "Lua.runtime.version": "Lua 5.4",
   "Lua.diagnostics.disable": ["lowercase-global", "undefined-global"],
   "stylua.configPath": ".stylua.toml"

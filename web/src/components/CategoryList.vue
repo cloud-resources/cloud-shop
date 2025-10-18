@@ -109,7 +109,6 @@ const scrollIntoView = (): void => {
   align-items: stretch;
   width: fit-content;
   height: fit-content;
-  font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.8);
   transition: 250ms background-color;
   cursor: pointer;
@@ -125,6 +124,8 @@ const scrollIntoView = (): void => {
     transition: 250ms background-color;
 
     svg {
+      width: 42.5%;
+      height: auto;
       color: rgb(255, 255, 255);
     }
   }
@@ -138,6 +139,7 @@ const scrollIntoView = (): void => {
 
     .category-name {
       font-family: "PFDinDisplayPro Bold", sans-serif;
+      font-size: 1.3vh;
     }
   }
 

@@ -41,7 +41,7 @@ const props = defineProps({
 
   &-text {
     font-family: "PFDinDisplayPro Bold", sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.8vh;
     letter-spacing: 0.06em;
     color: rgb(255, 255, 255);
   }
@@ -50,13 +50,14 @@ const props = defineProps({
     padding: 0.7vh 1.7vh;
     border-radius: 0.35vh;
     font-family: "PFDinDisplayPro Medium", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.7vh;
     color: rgba(255, 255, 255, 0.8);
     background-color: rgb(63, 63, 63);
   }
 }
 
 .description {
+  font-size: 1.4vh;
   color: rgba(255, 255, 255, 0.5);
 }
 </style>

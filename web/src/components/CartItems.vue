@@ -69,7 +69,7 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
 </script>
 
 <template>
-  <div v-if="shopStore.cart.length === 0" class="no-items">
+  <div v-if="!shopStore.cart.length" class="no-items">
     <Icon icon="mdi:shopping-basket-off" />
   </div>
 
@@ -184,12 +184,12 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
 
       .item-label {
         text-align: left;
-        font-size: 0.9rem;
+        font-size: 1.25vh;
         color: rgba(255, 255, 255, 0.8);
       }
 
       .item-price {
-        font-size: 0.9rem;
+        font-size: 1.25vh;
         color: rgb(102, 249, 111);
         text-shadow: 0 0 1.19vh rgba(102, 249, 111, 0.5);
       }
@@ -209,7 +209,7 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
       height: auto;
       min-width: 1ch;
       max-width: 3ch;
-      font-size: 0.85rem;
+      font-size: 1.3vh;
       color: rgb(255, 255, 255);
       text-align: center;
       font-family: "PFDinDisplayPro Medium", sans-serif;
@@ -261,9 +261,10 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
-  font-size: 7.5rem;
+  width: calc(100% + 2.2vh);
+  height: calc((7 * 6.5vh) + (6 * 1vh));
+  padding-right: 1.5vh;
+  font-size: 10vh;
   color: rgba(255, 255, 255, 0.15);
 }
 
